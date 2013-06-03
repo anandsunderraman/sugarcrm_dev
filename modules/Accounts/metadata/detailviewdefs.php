@@ -214,6 +214,19 @@ $viewdefs['Accounts']['DetailView'] = array(
           ),
         ),
       ),
+	   'LBL_PANEL_DNB_DIRECT' => 
+      array (
+        array (
+          array (
+            'name' => 'phone_office',
+            'label' => 'LBL_DUNS_NUMBER',
+          ),
+		   array (
+            'name' => 'industry',
+            'label' => 'LBL_LOCATION_TYPE',
+          ),
+        ),
+      ),
     )
 );
 ?>
